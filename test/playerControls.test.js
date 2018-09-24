@@ -16,4 +16,7 @@ describe('Player controls', () => {
     expect(playerControls.fetchPlayerOneIndex(gameGrid)).toEqual([11, 5]);
   });
 
+  test('can fetch player 2', () => {
+    expect(playerControls.fetchPlayerTwoIndex(gameGrid)).toEqual([11, 13]);
+  });
 });
