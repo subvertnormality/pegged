@@ -1,0 +1,23 @@
+{
+  "name": "pegged",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .json --ext .js",
+    "unit": "jest",
+    "test": "jest && npm run lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "jest": "^23.6.0"
+  }
+}
