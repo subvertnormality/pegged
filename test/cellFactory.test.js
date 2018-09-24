@@ -48,23 +48,8 @@ describe('Cell factory', () => {
     const exitCell = cellFactory.createExitCell();
 
     expect(exitCell).toEqual({
-      type: 'exit'
-    });
-  });
-
-  test('can create a player one cell', () => {
-    const playerOneCell = cellFactory.createPlayerOneCell();
-
-    expect(playerOneCell).toEqual({
-      type: 'player1'
-    });
-  });
-
-  test('can create a player two cell', () => {
-    const playerTwoCell = cellFactory.createPlayerTwoCell();
-
-    expect(playerTwoCell).toEqual({
-      type: 'player2'
+      type: 'exit',
+      'player': 0
     });
   });
 
