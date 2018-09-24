@@ -19,8 +19,7 @@ describe('Cell factory', () => {
     expect(verticalWallCell).toEqual({
       type: 'wall',
       destroyed: false,
-      orientation: 'vertical',
-      player: 0
+      orientation: 'vertical'
     });
   });
 
@@ -30,8 +29,7 @@ describe('Cell factory', () => {
     expect(horizontalWallCell).toEqual({
       type: 'wall',
       destroyed: false,
-      orientation: 'horizontal',
-      player: 0
+      orientation: 'horizontal'
     });
   });
 
@@ -49,7 +47,7 @@ describe('Cell factory', () => {
 
     expect(exitCell).toEqual({
       type: 'exit',
-      'player': 0
+      player: 0
     });
   });
 

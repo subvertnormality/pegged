@@ -2,7 +2,6 @@
 
 
 const gridFactory = require('../lib/gridFactory.js');
-const cellFactory = require('../lib/cellFactory.js');
 const playerControls = require('../lib/playerControls.js');
 
 describe('Player controls', () => {
@@ -14,7 +13,6 @@ describe('Player controls', () => {
   });
 
   test('can fetch player 1', () => {
-    console.log(gameGrid)
     expect(playerControls.fetchPlayerOneIndex(gameGrid)).toEqual([11, 5]);
   });
 
