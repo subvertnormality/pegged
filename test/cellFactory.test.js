@@ -19,6 +19,7 @@ describe('Cell factory', () => {
     expect(verticalWallCell).toEqual({
       type: 'wall',
       destroyed: false,
+      built: false,
       orientation: 'vertical'
     });
   });
@@ -29,6 +30,7 @@ describe('Cell factory', () => {
     expect(horizontalWallCell).toEqual({
       type: 'wall',
       destroyed: false,
+      built: false,
       orientation: 'horizontal'
     });
   });
